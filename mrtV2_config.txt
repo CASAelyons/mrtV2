@@ -74,7 +74,7 @@ alg_params =
 //contour_levels = [30.0, 45.0];
 contour_levels = [45.0];
 
-min_contour_points = 26;
+min_contour_points = 8;
 
 };
 
