@@ -662,7 +662,7 @@ int mrtV2(char i_filename[], char config_fn[]) {
 	      //printf("subsubcase 1\n");
 	      waypoints = (int*)realloc(waypoints, (numlinestrings+1)*sizeof(int));
 	      waypoints[numlinestrings] = numwaypoints;
-	      int a;
+	      //int a;
 	      //for (a=0; a<numwaypoints; a++) 
 	      //printf("linestring point %d index %d %d\n", a, linestrings[numlinestrings][a].xind, linestrings[numlinestrings][a].yind);
 	      ++numlinestrings;

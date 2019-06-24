@@ -19,6 +19,7 @@ struct latLon {
   double lon;
 };
 
+short ip_is_equal(struct index_pair a, struct index_pair b);
 double degToRad(double degs);
 double radToDeg(double rads);
 

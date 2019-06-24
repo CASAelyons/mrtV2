@@ -21,6 +21,13 @@ void malloc_error(char *In)
   exit(1);
 };
 
+short ip_is_equal(struct index_pair a, struct index_pair b) {
+  if ((a.xind == b.xind) && (a.yind == b.yind))
+    return 1;
+  else
+    return 0;
+}
+
 double degToRad(double degs) {
   double rad = 0;
   rad = degs * (M_PI / 180);
